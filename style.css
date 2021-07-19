@@ -1,0 +1,43 @@
+.carousel {
+  background-color: #fceae8;
+  border-radius: 20px;
+}
+#col-item {
+  padding: 60px;
+}
+header {
+  background-color: #fff;
+}
+main {
+  /* background-color: #f4f4f4; */
+}
+
+.rounded-3 {
+  border-radius: 2.3rem !important;
+}
+.order-button {
+  background-color: #ff3786;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  border-radius: 10px;
+  color: white;
+}
+.width-100px {
+  width: 100px;
+}
+.card {
+  border: none;
+}
+.card-footer {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  border-top: none;
+}
+
+.subscribe {
+  background-color: #fff2f1;
+  border-radius: 20px;
+}
+footer {
+}
