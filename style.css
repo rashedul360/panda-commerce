@@ -1,6 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 .carousel {
   background-color: #fceae8;
   border-radius: 20px;
+}
+body {
+  font-family: "Poppins", sans-serif;
 }
 #col-item {
   padding: 60px;
@@ -25,7 +29,24 @@ main {
 }
 .width-100px {
   width: 100px;
+  transition: all 0.5s ease-in-out;
 }
+img {
+  transition: all 0.5s ease;
+}
+img:hover {
+  transform: scale(1.1);
+}
+button {
+  transition: all 1s ease;
+}
+button:hover {
+  border-radius: 32px;
+}
+.width-100px:hover {
+  transform: scale(1.2);
+}
+
 .card {
   border: none;
 }
@@ -38,6 +59,10 @@ main {
 .subscribe {
   background-color: #fff2f1;
   border-radius: 20px;
+}
+a {
+  text-decoration: none;
+  color: #ff3786;
 }
 footer {
 }
